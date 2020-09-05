@@ -1,6 +1,6 @@
 import React from 'react';
-import NoteItem from './note-items/NoteItem.js';
-import NoteItemText from './note-items/NoteItemText.js';
+import NoteItem from './note-items/NoteItem.jsx';
+import NoteItemText from './note-items/NoteItemText.jsx';
 import '../styles/NoteItems.css';
 
 export default function NoteItems(props) {

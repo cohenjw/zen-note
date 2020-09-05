@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import Header from './components/Header.js';
-import NoteItems from './components/NoteItems.js';
+import Header from './components/Header.jsx';
+import NoteItems from './components/NoteItems.jsx';
 import './styles/App.css';
 
 export default class App extends Component {
