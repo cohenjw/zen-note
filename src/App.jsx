@@ -41,10 +41,8 @@ export default class App extends Component {
 	render() {
 		return (
 			<div id="App">
-				<Header addNoteHandle={this.addNote} exportHandle={this.export}/>
-				<NoteItems
-					notes={this.state.notes}
-				/>
+				<Header addNoteHandle={this.addNote} exportHandle={this.export} />
+				<NoteItems notes={this.state.notes} />
 			</div>
 		);
 	}

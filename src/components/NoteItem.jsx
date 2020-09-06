@@ -20,6 +20,7 @@ export default class NoteItem extends Component {
 				<input className="note-text"
 					placeholder="..."
 				/>
+				<div className='delete-note-button'></div>
 			</div>
 		);
 	}

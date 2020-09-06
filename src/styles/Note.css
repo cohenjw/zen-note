@@ -1,6 +1,6 @@
 .note {
 	margin: 0 auto 3em;
-	padding: 2em 3em;
+	padding: 2vw 2vw;
 	width: 40%;
 	color: black;
 	background-color: rgb(245, 245, 245);
@@ -11,24 +11,38 @@
 .note-title {
 	display: block;
 	font-size: 1.5vw;
-	margin-bottom: 0.75em;
 	padding: 0.25em;
 }
 
 .note-text {
 	padding: 0.5em;
 	font-size: 0.9vw;
+	margin: 1em 0 0.05em;
 }
 
 .note-title, .note-text {
 	width: 98%;
-	
 }
 
 .note-title::placeholder, .note-text::placeholder {
-	color: rgb(90, 90, 90);
+	color: #666;
 }
 
 .note-title:focus::placeholder, .note-text:focus::placeholder {
 	color: transparent;
+}
+
+.delete-note-button {
+	position: absolute;
+	left: 70.5%;
+	background: url('../assets/trash.svg') no-repeat center;
+	background-size: contain;
+	width: min(1.25vw, 1.25em);
+	height: min(1.25vw, 1.25em);
+	transition: all .1s ease-in-out;
+}
+
+.delete-note-button:hover {
+	transform: scale(1.15);
+	cursor: pointer;
 }

@@ -2,7 +2,7 @@
 
 header {
 	width: 70%;
-	margin: 3em auto 6em;
+	margin: 2% auto 5vw;
 	padding: 1em;
 	text-align: center;
 	color: rgb(245, 245, 245);
@@ -41,7 +41,6 @@ header {
 #export-button {
 	background: url('../assets/export.svg') no-repeat center;
 	background-size: contain;
-	fill: red;
 }
 
 .button {
