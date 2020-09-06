@@ -1,6 +1,5 @@
 import React from 'react';
-import NoteItem from './note-items/NoteItem.jsx';
-import NoteItemText from './note-items/NoteItemText.jsx';
+import NoteItem from './NoteItem.jsx';
 import '../styles/NoteItems.css';
 
 export default function NoteItems(props) {
@@ -9,9 +8,7 @@ export default function NoteItems(props) {
 		<div id="note-items">
 			{
 				props.notes.map((note, i) => {
-					<NoteItem key={i} id={i} updateNoteHandle={props.updateNoteHandle}>
-						<NoteItemText/>
-					</NoteItem>
+					return <NoteItem key={i} id={i} note={note} />
 				})
 			}
 		</div>

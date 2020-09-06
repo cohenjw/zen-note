@@ -44,7 +44,6 @@ export default class App extends Component {
 				<Header addNoteHandle={this.addNote} exportHandle={this.export}/>
 				<NoteItems
 					notes={this.state.notes}
-					updateNoteHandle={this.updateNote}
 				/>
 			</div>
 		);
